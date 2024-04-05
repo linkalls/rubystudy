@@ -1,5 +1,5 @@
 tags = ["A", "IMG", "PRE"]
-tags.each do |tagmname|
+tags.each do |tagname|
   case tagname
   when "P", "A", "I", "B", "BLOCKQUOTE"
     puts "#{tagname} has child."
